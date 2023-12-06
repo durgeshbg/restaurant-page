@@ -1,6 +1,7 @@
 import './style.css';
+import load from './modules/load';
 
 function init() {
-    const container = document.querySelector('#container');
-    container.textContent = 'Hello World!';
+    load();
 }
+init();
