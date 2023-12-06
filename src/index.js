@@ -7,7 +7,13 @@ import menu from './modules/menu';
 function init() {
     load();
     home();
-    contact();
-    menu();
+    addListeners();
 }
+
+function addListeners() {
+    document.querySelector('.home').addEventListener('click', home);
+    document.querySelector('.contact').addEventListener('click', contact);
+    document.querySelector('.menu').addEventListener('click', menu);
+}
+
 init();
