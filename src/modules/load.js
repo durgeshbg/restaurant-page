@@ -9,7 +9,7 @@ export default function load() {
 
     header.classList.add('tab-header');
     description.classList.add('tab-description');
-    tabContainer.classList.add('.tab-container');
+    tabContainer.classList.add('tab-container');
 
     head.textContent = 'Biriyani Club';
     ['home', 'menu', 'contact'].forEach((link) => {
