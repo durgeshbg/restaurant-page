@@ -1,7 +1,6 @@
 export default function home() {
-    const content = document.querySelector('#content');
-    const header = document.createElement('h2');
-    const description = document.createElement('div');
+    const header = document.querySelector('.tabHeader');
+    const description = document.querySelector('.tabDescription');
     header.textContent = 'Home';
     description.textContent =
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit.\
@@ -9,7 +8,4 @@ export default function home() {
         facilis delectus earum sint inventore totam dolor autem. \
         Asperiores nemo porro quibusdam totam inventore! \
         Libero, consectetur?';
-
-    content.appendChild(header);
-    content.appendChild(description);
 }
