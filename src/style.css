@@ -69,6 +69,37 @@ a {
     margin-bottom: 10px;
 }
 
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+}
+.menu .section {
+    border-left: 6px solid white;
+    border-bottom: 5px solid white;
+    box-shadow: 0px 0px 10px white;
+    margin-bottom: 2rem;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+}
+.menu h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+}
+.menu .dish {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.menu .dish p.name {
+    font-size: 1.2rem;
+    width: 300px;
+}
+
 .card {
     border-left: 8px solid white;
     border-bottom: 5px solid white;
