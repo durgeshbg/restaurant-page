@@ -1,0 +1,27 @@
+{
+    "I. Signature Biryani Offerings": [
+        ["Hyderabadi Nawabi Biryani", 234],
+        ["Lucknawi Tehzeeb Biryani", 345],
+        ["Vegetarian Delight Dum Biryani", 564]
+    ],
+    "II. Chef's Recommendations": [
+        ["Chef's Special Dum Gosht Biryani", 673],
+        ["Subz-E-Bahar: Royal Vegetable Biryani", 345]
+    ],
+    "III. Biryani Accompaniments": [
+        ["Raita-e-Khas", 344],
+        ["Mirch Ka Salan", 566]
+    ],
+    "IV. Breads & Sides": [
+        ["Warqi Paratha", 434],
+        ["Paneer Tikka", 342]
+    ],
+    "V. Dessert Delights": [
+        ["Shahi Tukda", 234],
+        ["Phirni", 656]
+    ],
+    "VI. Beverages": [
+        ["Saffron-infused Lassi", 78],
+        ["Mango Mastani.", 45]
+    ]
+}
