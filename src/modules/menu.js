@@ -4,7 +4,7 @@ export default function menu() {
     const description = document.querySelector('.tab-description');
     const menu = document.createElement('div');
 
-    header.textContent = 'Our Menu';
+    header.textContent = 'Menu';
     menu.classList.add('menu');
 
     for (let section in data) {
