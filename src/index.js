@@ -5,15 +5,15 @@ import contact from './modules/contact';
 import menu from './modules/menu';
 
 function init() {
-    load();
-    home();
-    addListeners();
+  load();
+  home();
+  addListeners();
 }
 
 function addListeners() {
-    document.querySelector('.home').addEventListener('click', home);
-    document.querySelector('.contact').addEventListener('click', contact);
-    document.querySelector('.menu').addEventListener('click', menu);
+  document.querySelector('.home').addEventListener('click', home);
+  document.querySelector('.contact').addEventListener('click', contact);
+  document.querySelector('.menu').addEventListener('click', menu);
 }
 
 init();
